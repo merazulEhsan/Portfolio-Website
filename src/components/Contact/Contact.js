@@ -29,20 +29,41 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="bg-gray-800 text-gray-100 lg:px-8 py-1 pb-10 ">
+    <div
+      id="contact"
+      className="bg-gradient-to-br from-black via-black to-purple-900 text-gray-100 lg:px-8 py-1 pb-10 "
+    >
       <div className="max-w-screen-xl mt-12 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-900 text-gray-100 rounded-lg shadow-lg">
         <div className="flex flex-col justify-between">
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight mb-8">
               Lets talk about everything!
             </h2>
-            
+
             <span className="text-gray-500 hover:text-gray-900 dark:hover:text-white flex mb-3">
-            <svg xmlns="http://www.w3.org/2000/svg" className="" fill="#667eea" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg> <span className=" pl-2">merazul35-2755@diu.edu.bd</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className=""
+                fill="#667eea"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z" />
+              </svg>{" "}
+              <span className=" pl-2">merazul35-2755@diu.edu.bd</span>
             </span>
             <span className="text-gray-500 hover:text-gray-900 dark:hover:text-white flex ">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="#667eea" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.445 17.827c-3.684 1.684-9.401-9.43-5.8-11.308l1.053-.519 1.746 3.409-1.042.513c-1.095.587 1.185 5.04 2.305 4.497l1.032-.505 1.76 3.397-1.054.516z"/></svg>
-             <span className=" pl-2">+880 1701-018652</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#667eea"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.445 17.827c-3.684 1.684-9.401-9.43-5.8-11.308l1.053-.519 1.746 3.409-1.042.513c-1.095.587 1.185 5.04 2.305 4.497l1.032-.505 1.76 3.397-1.054.516z" />
+              </svg>
+              <span className=" pl-2">+880 1701-018652</span>
             </span>
           </div>
           <div className="mt-8 text-center">

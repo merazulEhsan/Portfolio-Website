@@ -11,14 +11,16 @@ const Home = () => {
           <div className="flex justify-center ">
             <img
               className="w-1/2 rounded-full bg-gradient-to-r p-[4px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
-              width={350}
+              width={300}
               src={img}
               alt=""
-              
             />
           </div>
-          <div className="leading-loose lg:w-1/2" data-aos="fade-up"
-     data-aos-duration="3000">
+          <div
+            className="leading-loose lg:w-1/2"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             <h1 className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-transparent bg-clip-text font-sans font-bold lg:text-3xl text-2xl">
               Hello! I'm
             </h1>
@@ -128,7 +130,6 @@ const Home = () => {
                 Google Site
               </span>
             </button>
-            
           </div>
         </div>
       </div>

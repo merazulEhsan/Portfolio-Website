@@ -16,6 +16,7 @@
     "react-toastify": "^9.0.4",
     "react-tsparticles": "^2.0.6",
     "react3dtagcloud": "^0.2.2",
+    "tailwindcss-border-gradient-radius": "^3.0.1",
     "tsparticles": "^2.0.6",
     "web-vitals": "^2.1.4"
   },

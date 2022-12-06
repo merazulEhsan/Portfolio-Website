@@ -47,17 +47,24 @@ const Skills = () => {
   ];
 
   return (
-    <div id="skills" className="bg-gray-800 pt-20 p-5 lg:p-10">
+    <div
+      id="skills"
+      className="bg-gradient-to-bl from-black via-black to-amber-900 pt-20 p-5 lg:p-10"
+    >
       <h1 className="text-center lg:text-5xl font-bold leading-tight text-4xl text-transparent bg-clip-text bg-gradient-to-tr from-rose-400 via-fuchsia-500 to-indigo-500 pt-7">
         Skills
       </h1>
-      <p><div class="divider text-center font-bold leading-tight lg:w-1/5 mx-auto uppercase">What I Know</div></p>
+      <p>
+        <div class="divider text-center font-bold leading-tight lg:w-1/5 mx-auto uppercase">
+          What I Know
+        </div>
+      </p>
       <p className="divider"></p>
       <div className="grid lg:grid-cols-2 gap-10 bg-gradient-to-l from-gray-900 to-gray-700 p-5 lg:p-10 rounded-lg shadow-lg">
         <SkillBar skills={skills} height={20} colors={colors} />
 
         <div className="mt-12 w-2/4 overflow-hidden lg:overflow-visible invisible lg:visible mx-auto">
-          <TagCloud tagName={tagName} ></TagCloud>
+          <TagCloud tagName={tagName}></TagCloud>
         </div>
       </div>
     </div>
