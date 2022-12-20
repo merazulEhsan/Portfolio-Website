@@ -15,7 +15,11 @@ const Project = () => {
       <p className="divider"></p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center mt-20 container m-auto">
-        <div className="relative group ">
+        <div
+          className="relative group "
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           <div className="overflow-hidden cursor-pointer rounded-md shadow-lg">
             <img
               className="hover:scale-110 duration-500 ease-in-out"
@@ -98,7 +102,11 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="relative group ">
+        <div
+          className="relative group "
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           <div className="overflow-hidden cursor-pointer rounded-md shadow-lg">
             <img
               className="hover:scale-110 duration-500 ease-in-out"
@@ -180,7 +188,11 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="relative group ">
+        <div
+          className="relative group "
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           <div className="overflow-hidden cursor-pointer rounded-md shadow-lg">
             <img
               className="hover:scale-110 duration-500 ease-in-out"

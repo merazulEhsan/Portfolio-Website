@@ -37,7 +37,11 @@ const Contact = () => {
         Contact
       </div>
       <div className="grid lg:gap-10 grid-cols-1 md:grid-cols-2 h-auto container m-auto text-white ">
-        <div className="grid gap-3 xl:gap-10 p-3 xl:p-10 xl:mx-12 font-sans text-xs md:text-base">
+        <div
+          className="grid gap-3 xl:gap-10 p-3 xl:p-10 xl:mx-12 font-sans text-xs md:text-base"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
           <div className="col-span-4 relative pointer-events-none mb-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -112,6 +116,8 @@ const Contact = () => {
           ref={form}
           onSubmit={sendEmail}
           className="grid grid-cols-2 gap-6 p-3 xl:p-10"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
         >
           <div className="">
             <input

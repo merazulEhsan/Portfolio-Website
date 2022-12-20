@@ -1,8 +1,29 @@
 import React from "react";
+import { useState } from "react";
 
 const NavMenu = () => {
+  const [nav, setNav] = useState(false);
+
+  const changeBg = () => {
+    if (window.scrollY >= 100) {
+      setNav(true);
+    } else {
+      setNav(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBg);
+
+  // "navbar w-full fixed shadow-lg z-50 border-b-2 border-teal-400 bg-base-100 text-white"
+
   return (
-    <div className=" navbar w-full fixed shadow-lg z-50 border-b-2 border-teal-400 bg-base-100 text-white">
+    <div
+      className={
+        nav
+          ? "navbar w-full fixed z-50 backdrop-blur-3xl backdrop-filter bg-black bg-opacity-40 text-white transition-all duration-300 ease-in-out"
+          : "navbar w-full fixed shadow-lg z-50 bg-transparent text-white"
+      }
+    >
       <div className="container m-auto">
         <div className="navbar-start">
           <div className="dropdown">

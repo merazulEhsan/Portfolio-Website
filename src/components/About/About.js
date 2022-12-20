@@ -15,9 +15,10 @@ const About = () => {
         <div className="hero-content flex-col lg:flex-row lg:w-4/5">
           <img
             src={img}
-            className="max-w-sm rounded-lg shadow-2xl w-8/12 lg:w-1/2 border-4 hover:border-sky-200 hover:scale-110 duration-700 ease-in-out border-white"
+            className="max-w-sm rounded-lg shadow-2xl w-full lg:w-1/2 border-4 hover:border-sky-200 hover:scale-110 duration-700 ease-in-out border-white"
             alt=""
             data-aos="zoom-in"
+            data-aos-duration="2000"
           />
           <div>
             <h1 className="text-3xl font-bold">Merazul Ehsan Sowad</h1>
@@ -32,7 +33,7 @@ const About = () => {
             <button
               onClick={() =>
                 (window.location.href =
-                  "https://drive.google.com/file/d/1jQwqHmhVEelpZwj8oUdzP8zVZm9E2P9d/view?usp=sharing")
+                  "https://drive.google.com/file/d/13nAX2XqIqKDlWmTCUNKeFrMCvwEzpsnc/view?usp=share_link")
               }
               className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800"
             >
