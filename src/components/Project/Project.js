@@ -9,12 +9,12 @@ const Project = () => {
       id="project"
       className="bg-gradient-to-tr from-black via-black to-purple-900 lg:h-screen p-3 md:p-6 lg:p-10"
     >
-      <div className="text-4xl text-center pt-10 lg:pt-10 lg:text-5xl font-bold leading-tight lg:w-2/5 mx-auto bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 text-transparent bg-clip-text">
+      <div className="text-4xl text-center pt-10 lg:pt-10 lg:text-5xl font-bold leading-tight lg:w-2/5 mx-auto bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 text-transparent bg-clip-text font-cinzel">
         Recent Projects
       </div>
       <p className="divider"></p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center mt-20 container m-auto">
         <div className="relative group ">
           <div className="overflow-hidden cursor-pointer rounded-md shadow-lg">
             <img
@@ -25,7 +25,7 @@ const Project = () => {
           </div>
           <div className="absolute w-full p-2 group-hover:duration-500 group-hover:transition-all ease-in-out group-hover:bottom-0 h-16 backdrop-blur-sm bg-gradient-to-tr from-cyan-500 via-cyan-100 to-white bg-opacity-70 invisible group-hover:visible">
             <div className="grid grid-cols-2 justify-between gap-5">
-              <p className="text-lg text-black font-serif font-semibold">
+              <p className="xl:text-lg text-sm  text-black font-serif font-semibold">
                 Cashless Restaurent
               </p>
               <div className="grid grid-cols-3 justify-items-center">

@@ -7,7 +7,7 @@ const Home = () => {
     <div id="home">
       <Particle></Particle>
       <div id="home" className=" h-screen lg:px-14 lg:pr-14 lg:pt-10">
-        <div class="flex-col hero-content lg:flex-row-reverse min-h-screen items-center ">
+        <div class="flex-col hero-content lg:flex-row-reverse min-h-screen items-center container m-auto">
           <div className="flex justify-center ">
             <img
               className="w-1/2 rounded-full bg-gradient-to-r p-[4px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
@@ -120,14 +120,11 @@ const Home = () => {
               </span>
             </div>
             <button
-              onClick={() =>
-                (window.location.href =
-                  "https://sites.google.com/diu.edu.bd/sowad-portfolio/home")
-              }
+              onClick={() => window.scrollBy(0, window.innerHeight)}
               class="relative mt-5 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800"
             >
               <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                Google Site
+                Learn More
               </span>
             </button>
           </div>

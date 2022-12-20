@@ -7,7 +7,7 @@ const About = () => {
       id="about"
       className="bg-gradient-to-br from-black via-black to-purple-900 p-5 lg:p-10 text-gray-100"
     >
-      <div className="divider text-4xl text-center mb-16 pt-12 lg:text-5xl font-bold leading-tight lg:w-2/5 mx-auto">
+      <div className="divider text-4xl text-center mb-16 pt-12 lg:text-5xl font-bold leading-tight lg:w-2/5 mx-auto font-cinzel">
         About
       </div>
 
@@ -22,8 +22,7 @@ const About = () => {
           <div>
             <h1 className="text-3xl font-bold">Merazul Ehsan Sowad</h1>
             <p className="py-6 text-justify">
-              Hi! I'm a
-              <strong className="text-[#08fdd8]">MERN Stack Developer</strong>
+              Hi! I'm a<strong className="text-[#08fdd8]"> MERN Stack </strong>
               located in Bangladesh. I am specialized in javascript stack i.e.
               Node.js, React.js, Express.js. Also fimiliar with UI/UX design,
               MongoDB, Firebase, Next.js, TypeScript etc. I'm Self-Confident &

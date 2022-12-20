@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div className="bg-gradient-to-tl from-black via-black to-orange-900 p-5 lg:p-10 text-gray-100">
       <section className=" rounded-lg pb-10" id="education">
-        <h2 className="text-4xl text-center mb-5 pt-20 lg:text-5xl font-bold leading-tight">
+        <h2 className="text-4xl text-center mb-5 pt-20 lg:text-5xl font-bold leading-tight font-cinzel">
           Educa<span className="text-emerald-400">tion</span>
           <span className="divider"></span>
         </h2>
