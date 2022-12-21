@@ -67,7 +67,7 @@ const Home = () => {
                 M
               </span>
               <span class="hover:animate-rubberBand animate-repeat-[1] animate-slow lg:text-3xl text-2xl font-bold hover:text-[#08FDD8] text-white">
-                A
+                E
               </span>
               <span class="hover:animate-rubberBand animate-repeat-[1] animate-slow lg:text-3xl text-2xl font-bold hover:text-[#08FDD8] text-white">
                 R
