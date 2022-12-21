@@ -9,8 +9,6 @@ const NavMenu = () => {
     document.title = `Portfolio ${title}`;
   }, [title]);
 
-  console.log(title);
-
   const changeBg = () => {
     if (window.scrollY >= 100) {
       setNav(true);
