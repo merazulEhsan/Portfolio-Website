@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 
 const NavMenu = () => {
   const [nav, setNav] = useState(false);
+  const [title, setTitle] = useState("");
+
+  useEffect(() => {
+    document.title = `Portfolio ${title}`;
+  }, [title]);
+
+  console.log(title);
 
   const changeBg = () => {
     if (window.scrollY >= 100) {
@@ -78,23 +85,35 @@ const NavMenu = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0 font-cinzel font-semibold text-sm scroll-smooth">
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" onClick={() => setTitle("")}>
+                Home
+              </a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" onClick={() => setTitle("| About")}>
+                About
+              </a>
             </li>
             <li>
-              <a href="#project">Projects</a>
+              <a href="#project" onClick={() => setTitle("| Projects")}>
+                Projects
+              </a>
             </li>
 
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills" onClick={() => setTitle("| Skills")}>
+                Skills
+              </a>
             </li>
             <li>
-              <a href="#education">Education</a>
+              <a href="#education" onClick={() => setTitle("| Education")}>
+                Education
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={() => setTitle("| Contact")}>
+                Contact
+              </a>
             </li>
           </ul>
         </div>
