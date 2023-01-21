@@ -23,7 +23,8 @@ const About = () => {
           <div>
             <h1 className="text-3xl font-bold">Merazul Ehsan Sowad</h1>
             <p className="py-6 text-justify">
-              Hi! I'm a<strong className="text-[#08fdd8]"> MERN Stack </strong>
+              Hi! I'm a
+              <strong className="text-[#08fdd8]"> MERN Stack Developer </strong>
               located in Bangladesh. I am specialized in javascript stack i.e.
               Node.js, React.js, Express.js. Also fimiliar with UI/UX design,
               MongoDB, Firebase, Next.js, TypeScript etc. I'm Self-Confident &

@@ -83,33 +83,57 @@ const NavMenu = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0 font-cinzel font-semibold text-sm scroll-smooth">
             <li>
-              <a href="#home" onClick={() => setTitle("")}>
+              <a
+                href="#home"
+                onClick={() => setTitle("")}
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" onClick={() => setTitle("| About")}>
+              <a
+                href="#about"
+                onClick={() => setTitle("| About")}
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#project" onClick={() => setTitle("| Projects")}>
+              <a
+                href="#project"
+                onClick={() => setTitle("| Projects")}
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+              >
                 Projects
               </a>
             </li>
 
             <li>
-              <a href="#skills" onClick={() => setTitle("| Skills")}>
+              <a
+                href="#skills"
+                onClick={() => setTitle("| Skills")}
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+              >
                 Skills
               </a>
             </li>
             <li>
-              <a href="#education" onClick={() => setTitle("| Education")}>
+              <a
+                href="#education"
+                onClick={() => setTitle("| Education")}
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+              >
                 Education
               </a>
             </li>
             <li>
-              <a href="#contact" onClick={() => setTitle("| Contact")}>
+              <a
+                href="#contact"
+                onClick={() => setTitle("| Contact")}
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+              >
                 Contact
               </a>
             </li>
