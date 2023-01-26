@@ -68,7 +68,7 @@ const Education = () => {
                     </div>
                     <div class="px-3 pb-6">
                       <h1>Group-Science</h1>
-                      <h1>Major General Mahmudul Hasan Adarsha College</h1>
+                      <h1>H.M Institute School & College Science</h1>
                     </div>
                   </div>
                 </div>
