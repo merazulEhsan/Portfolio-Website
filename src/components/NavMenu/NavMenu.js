@@ -1,16 +1,15 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const NavMenu = () => {
   const [nav, setNav] = useState(false);
   const [title, setTitle] = useState("");
 
   useEffect(() => {
-    document.title = `Portfolio ${title}`;
+    document.title = `Sowad-Portfolio ${title}`;
   }, [title]);
 
   const changeBg = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 30) {
       setNav(true);
     } else {
       setNav(false);
@@ -25,13 +24,13 @@ const NavMenu = () => {
     <div
       className={
         nav
-          ? "navbar w-full fixed z-50 backdrop-blur-3xl backdrop-filter bg-black bg-opacity-40 text-white transition-all duration-300 ease-in-out"
-          : "navbar w-full fixed shadow-lg z-50 bg-transparent text-white"
+          ? "navbar w-full fixed z-20  bg-[#040c16] text-white transition-all duration-1000 ease-in-out"
+          : "navbar w-full fixed z-20 bg-transparent text-white"
       }
     >
-      <div className="container m-auto">
-        <div className="navbar-start">
-          <div className="dropdown">
+      <div className="container mx-auto xl:px-32 md:px-6  items-center max-w-[1536px]">
+        <div className="navbar-start ">
+          <div className="dropdown ">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +49,7 @@ const NavMenu = () => {
             </label>
             <ul
               tabIndex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm text-center dropdown-content mt-2 p-4 shadow bg-black w-screen border-t border-gray-500 -ml-2 md:-ml-8"
             >
               <li>
                 <a href="#home">Home</a>
@@ -74,19 +73,19 @@ const NavMenu = () => {
           </div>
           <a
             href="#home"
-            className="btn btn-ghost normal-case text-3xl md:text-4xl font-bold font-cinzel bg-gradient-to-br from-purple-900 via-cyan-400 to-green-600 bg-clip-text text-transparent"
+            className="text-xl md:text-2xl font-bold font-grotesk tracking-wider"
           >
-            ME
+            <span className="bg-blue-600 py-.1 px-1 rounded">S</span>OWAD.
           </a>
         </div>
 
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal p-0 font-cinzel font-semibold text-sm scroll-smooth">
+          <ul className="menu menu-horizontal tracking-wider p-0 font-grotesk uppercase text-sm scroll-smooth">
             <li>
               <a
                 href="#home"
                 onClick={() => setTitle("")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
               >
                 Home
               </a>
@@ -95,7 +94,7 @@ const NavMenu = () => {
               <a
                 href="#about"
                 onClick={() => setTitle("| About")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
               >
                 About
               </a>
@@ -104,7 +103,7 @@ const NavMenu = () => {
               <a
                 href="#project"
                 onClick={() => setTitle("| Projects")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
               >
                 Projects
               </a>
@@ -114,7 +113,7 @@ const NavMenu = () => {
               <a
                 href="#skills"
                 onClick={() => setTitle("| Skills")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
               >
                 Skills
               </a>
@@ -123,7 +122,7 @@ const NavMenu = () => {
               <a
                 href="#education"
                 onClick={() => setTitle("| Education")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
               >
                 Education
               </a>
@@ -132,18 +131,18 @@ const NavMenu = () => {
               <a
                 href="#contact"
                 onClick={() => setTitle("| Contact")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-gradient-to-r from-green-500 to-blue-500 after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[3px] after:rounded-full after:absolute after:left-0 after:-bottom-0.5"
+                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
               >
                 Contact
               </a>
             </li>
           </ul>
         </div>
-        <div className="navbar-end  lg:pr-5 flex justify-end">
+        <div className="navbar-end  lg:pr-5 flex justify-end items-center">
           <a
             href="https://github.com/merazul2755"
             target="_blank"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white pr-3"
+            className="text-gray-500 hover:text-gray-900 dark:hover:text-white pr-3 transition ease-linear duration-500"
             rel="noreferrer"
           >
             <svg
@@ -162,7 +161,7 @@ const NavMenu = () => {
           <a
             href="https://www.linkedin.com/feed/"
             target="_blank"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white pr-3"
+            className="text-gray-500 hover:text-gray-900 dark:hover:text-white pr-3 transition ease-linear duration-500"
             rel="noreferrer"
           >
             <svg
@@ -178,7 +177,7 @@ const NavMenu = () => {
           <a
             href="https://www.facebook.com/sowad21"
             target="_blank"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            className="text-gray-500 hover:text-gray-900 dark:hover:text-white transition ease-linear duration-500"
             rel="noreferrer"
           >
             <svg

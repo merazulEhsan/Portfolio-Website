@@ -12,7 +12,7 @@ import Project from "./components/Project/Project";
 
 function App() {
   return (
-    <div className="">
+    <>
       <NavMenu></NavMenu>
       <Home></Home>
       <About></About>
@@ -22,7 +22,7 @@ function App() {
       <Contact></Contact>
       <Footer></Footer>
       <ToastContainer></ToastContainer>
-    </div>
+    </>
   );
 }
 

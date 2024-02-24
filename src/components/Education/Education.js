@@ -2,107 +2,58 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="bg-gradient-to-tl from-black via-black to-orange-900 p-5 lg:p-10 text-gray-100">
+    <div className="bg-gradient-to-r from-[#072d4f] from-30.67% via-[#052543] to-[#050c16] to-60.48%  text-gray-100 min-h-screen 2xl:min-h-full  ">
       <section className=" rounded-lg pb-10" id="education">
-        <h2 className="text-4xl text-center mb-5 pt-20 lg:text-5xl font-bold leading-tight font-cinzel">
-          Educa<span className="text-emerald-400">tion</span>
-          <span className="divider"></span>
-        </h2>
-
-        <section class="max-w-5xl mx-auto py-10">
-          <div>
-            <div class="flex flex-row">
-              <div class="hidden md:flex flex-col items-center">
-                <div class="w-32 py-5 border border-gray-300 rounded mr-4 uppercase flex flex-col items-center justify-center">
-                  <div class="text-2xl font-black text-gray-500">2019-2022</div>
-                  <div class="text-gray-500 text-sm">B.Sc.</div>
-                </div>
-                <div class="h-full border-l-4 border-transparent">
-                  <div class="border-l-4 mr-4 h-full border-gray-300 border-dashed"></div>
+        <section className=" text-gray-100 font-grotesk pt-20">
+          <div className="container px-4 md:px-12 md:py-12 mx-auto">
+            <div className="grid gap-4 mx-4 sm:grid-cols-12">
+              <div className="col-span-12 sm:col-span-3">
+                <div className="text-center sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:mx-auto sm:before:mx-0 before:bg-blue-600">
+                  <span className="font-grotesk px-2 py-1 rounded tracking-[4px] text-white bg-[#05345e] text-sm uppercase">
+                    Qualification
+                  </span>
+                  <h3 className="text-3xl font-semibold mt-4">
+                    Academic <span className="text-[#0788ff]">Timeline</span>
+                  </h3>
                 </div>
               </div>
-              <div class="flex-auto border rounded  border-gray-300 shadow-md">
-                <div class="flex md:flex-row flex-col items-center">
-                  <div class="flex-auto">
-                    <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-500">
-                      <span class="font-black">Step 1</span> - Idea
-                    </div>
-                    <div class="p-3 text-3xl text-white font">
-                      Bachelor's of Science B.Sc. in Software Engineering
-                    </div>
-                    <div class="px-3 pb-6">
-                      <h1>Department of Software Engineering</h1>
-                      <h1>Daffodil International University</h1>
-                    </div>
+              <div className="relative col-span-12 md:px-4 space-y-6 sm:col-span-9">
+                <div className="col-span-12 space-y-12 relative md:px-4 sm:col-span-8 sm:space-y-8 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:bg-gray-300">
+                  <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-blue-500">
+                    <h3 className="text-xl font-semibold tracki">
+                      Bachelor of Science in Software Engineering
+                    </h3>
+                    <time className="text-xs tracki uppercase text-gray-400">
+                      2019 Jan - 2022 Dec
+                    </time>
+                    <p className="mt-3">
+                      Daffodil International University <br />
+                      Dhanmondi 27, Dhaka
+                    </p>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="flex items-start flex-row">
-              <div class="border-t-4 border-r-4 border-transparent">
-                <div class="w-16 ml-16 h-16 border-l-4 border-gray-300 border-dashed border-b-4 rounded-bl-full"></div>
-              </div>
-              <div class="border-t-4 border-transparent flex-auto">
-                <div class="h-16 border-b-4 border-gray-300 border-dashed"></div>
-              </div>
-              <div class="w-16 mt-16 mr-16 h-16 border-r-4 border-gray-300 border-dashed border-t-4 rounded-tr-full"></div>
-            </div>
-            <div class="flex flex-row-reverse">
-              <div class="hidden md:flex flex-col items-center">
-                <div class="w-32 py-5 border border-gray-300 rounded ml-4 uppercase flex flex-col items-center justify-center">
-                  <div class="text-2xl font-black text-gray-500">2016-2017</div>
-                  <div class="text-gray-500 text-sm">HSC</div>
-                </div>
-                <div class="h-full border-r-4 border-transparent">
-                  <div class="border-l-4 ml-4 h-full border-gray-300 border-dashed"></div>
-                </div>
-              </div>
-              <div class="flex-auto border rounded  border-gray-300">
-                <div class="flex md:flex-row flex-col items-center">
-                  <div class="flex-auto">
-                    <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-500">
-                      <span class="font-black">Step 2</span> - Collaboration
-                    </div>
-                    <div class="p-3 text-3xl text-white font">
+                  <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-blue-500">
+                    <h3 className="text-xl font-semibold tracki">
                       Higher Secondary Certificate (HSC)
-                    </div>
-                    <div class="px-3 pb-6">
-                      <h1>Group-Science</h1>
-                      <h1>H.M Institute School & College Science</h1>
-                    </div>
+                    </h3>
+                    <time className="text-xs tracki uppercase text-gray-400">
+                      2016-2017
+                    </time>
+                    <p className="mt-3">
+                      H.M Institute School & College <br />
+                      Tangail
+                    </p>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="flex items-start flex-row-reverse">
-              <div class="border-t-4 border-l-4 border-transparent">
-                <div class="w-16 mr-16 h-16 border-r-4 border-gray-300 border-dashed border-b-4 rounded-br-full"></div>
-              </div>
-              <div class="border-t-4 border-transparent flex-auto">
-                <div class="h-16 border-b-4 border-gray-300 border-dashed"></div>
-              </div>
-              <div class="w-16 mt-16 ml-16 h-16 border-l-4 border-gray-300 border-dashed border-t-4 rounded-tl-full"></div>
-            </div>
-            <div class="flex flex-row">
-              <div class="hidden md:flex flex-col items-center">
-                <div class="w-32 py-5 border border-gray-300 rounded mr-4 uppercase flex flex-col items-center justify-center">
-                  <div class="text-2xl font-black text-gray-500">2014-2015</div>
-                  <div class="text-gray-500 text-sm">SSC</div>
-                </div>
-              </div>
-              <div class="flex-auto border rounded  border-gray-300">
-                <div class="flex md:flex-row flex-col items-center">
-                  <div class="flex-auto">
-                    <div class="md:hidden text-sm font-normal uppercase pt-3 pl-3 text-gray-500">
-                      <span class="font-black">Step 3</span> - Planification
-                    </div>
-                    <div class="p-3 text-3xl text-white font">
-                      Secondary School Certificate (SSC)
-                    </div>
-                    <div class="px-3 pb-6">
-                      <h1>Group-Science</h1>
-                      <h1>H.M Institute School & College Science</h1>
-                    </div>
+                  <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:bg-blue-500">
+                    <h3 className="text-xl font-semibold tracki">
+                      SSC Secondary School Certificate (SSC)
+                    </h3>
+                    <time className="text-xs tracki uppercase text-gray-400">
+                      2014-2015
+                    </time>
+                    <p className="mt-3">
+                      H.M Institute School & College <br />
+                      Tangail
+                    </p>
                   </div>
                 </div>
               </div>

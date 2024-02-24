@@ -1,0 +1,142 @@
+{
+  "skills": [
+    {
+      "name": "HTML5",
+      "image": "assets/html.png"
+    },
+    {
+      "name": "CSS3",
+      "image": "assets/css.png"
+    },
+    {
+      "name": "JavaScript",
+      "image": "assets/javascript.png"
+    },
+    {
+      "name": "ReactJS",
+      "image": "assets/reactjs.png"
+    },
+    {
+      "name": "Redux",
+      "image": "assets/redux.png"
+    },
+    {
+      "name": "NodeJs",
+      "image": "assets/nodejs.png"
+    },
+    {
+      "name": "TailwindCss",
+      "image": "assets/tailwind.png"
+    },
+    {
+      "name": "Git",
+      "image": "assets/git.png"
+    },
+    {
+      "name": "Figma",
+      "image": "assets/figma.png"
+    },
+    {
+      "name": "MongoDB",
+      "image": "assets/mongodb.png"
+    },
+    {
+      "name": "TypeScript",
+      "image": "assets/typescript.png"
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "name": "Cashless Restaurant",
+      "despription": "This software is effective in cutting the amount of time spent in the queue to send orders into the kitchen, placing orders before and with the option to use a card or online payment system that reduces time spent in tendering changes.",
+      "link": "https://cashless-restaurant.web.app/",
+      "image": "assets/images/Collage Maker-05-Dec-2022-09.35-PM.jpg",
+      "type": "Website",
+      "technology": "HTML5, CSS3, Tailwind CSS, Daisy UI, React, Stripe-js, Firebase, MongoDB, Express.js, Node.js",
+      "gitlink": "https://github.com/merazul2755/CashLess-Restaurant",
+      "note": "Please wait 50s for loading data"
+    },
+    {
+      "id": 2,
+      "name": "ToolSite",
+      "despription": "It’s a tools manufacturer’s website where customers can order tools like hardware or electric tools.Customers can view products, make an order, delete orders, add reviews.",
+      "link": "https://toolsite-82cbd.web.app/",
+      "image": "assets/images/Collage Maker-05-Dec-2022-09.40-PM.jpg",
+      "type": "Website",
+      "technology": "HTML5, CSS3, Tailwind CSS, Daisy UI, React, Firebase, MongoDB, Express.js, Node.js",
+      "gitlink": "https://github.com/merazul2755/ToolSite-Client-Side",
+      "note": "Please wait 50s for loading data"
+    },
+    {
+      "id": 3,
+      "name": "Transport Management System",
+      "despription": "By this site students can easily book/cancel their seats. Admin can add routes, manage users, add admin etc.",
+      "link": "https://transport-manegement-web.vercel.app/",
+      "image": "assets/images/transport.png",
+      "type": "Transport-Website",
+      "technology": "HTML5, CSS3, Tailwind CSS, Daisy UI, React, Firebase, MongoDB, Express.js, Node.js",
+      "gitlink": "https://github.com/merazul2755/Transport-Management",
+      "note": "Please wait 50s for loading data"
+    },
+    {
+      "id": 4,
+      "name": "Video Gallery",
+      "despription": "It is a simple video galley website. Here user can see videos, search video, like and dislike videos.",
+      "link": "https://video-galley-a9fb5.web.app/",
+      "image": "assets/images/video-gallery.png",
+      "type": "Website",
+      "technology": "HTML5, CSS3, Tailwind CSS, React, Firebase,Json-mock-server, redux",
+      "gitlink": "https://github.com/merazul2755/Video-Gallery",
+      "note": "Please wait 50s for loading data"
+    },
+    {
+      "id": 5,
+      "name": "Math Solver UI",
+      "despription": "This web site build with HTML5, TailwindCSS and JavaScript. It is a demo ui only.",
+      "link": "https://helpful-smakager-aafb7d.netlify.app/",
+      "image": "assets/images/math-solver.PNG",
+      "type": "Website",
+      "technology": "HTML5, TailwindCss and JavaScript",
+      "gitlink": "https://github.com/merazul2755/math-solver"
+    },
+    {
+      "id": 6,
+      "name": "Ligheniam",
+      "despription": "Ligheniam is a single page landing website. Its a responsive UI degine website.",
+      "link": "https://lighteniam-4q3a.onrender.com/",
+      "image": "assets/images/lighteniam.png",
+      "type": "Website",
+      "technology": "HTML5, TailwindCss, React, JavaScript, React-router-dom",
+      "gitlink": "https://github.com/merazul2755/Lighteniam"
+    }
+  ],
+
+  "contactInfo": [
+    {
+      "id": 1,
+      "label": "Name",
+      "name": "Merazul Ehsan Sowad",
+      "svg": "assets/name.svg"
+    },
+    {
+      "id": 2,
+      "label": "Location",
+      "name": "Dhaka, Bangladesh",
+      "svg": "assets/location.svg"
+    },
+    {
+      "id": 3,
+      "label": "Call Me",
+      "name": "+880 1701 018652",
+      "svg": "assets/call.svg"
+    },
+    {
+      "id": 4,
+      "label": "Email Me",
+      "name": "swe.merazul@gmail.com",
+      "svg": "assets/email.svg"
+    }
+  ]
+}
