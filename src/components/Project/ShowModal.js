@@ -33,12 +33,14 @@ export default function ShowModal({ setShowModal, project }) {
                   {project.type}
                 </span>
               </p>
+              <hr />
               <p className="grid grid-cols-4">
                 <span className="col-span-2 sm:col-span-1">Technology:</span>
                 <span className="col-span-2 sm:col-span-3 text-gray-500">
                   {project?.technology}
                 </span>
               </p>
+              <hr />
               <p className="grid grid-cols-4">
                 <span className="col-span-2 sm:col-span-1">Git Url:</span>
                 <span className="col-span-2 sm:col-span-3 text-gray-500 ">
@@ -52,6 +54,7 @@ export default function ShowModal({ setShowModal, project }) {
                   </a>
                 </span>
               </p>
+              <hr />
               <p className="grid grid-cols-4">
                 <span className="col-span-2 sm:col-span-1">Live Url:</span>
                 <a
@@ -63,6 +66,16 @@ export default function ShowModal({ setShowModal, project }) {
                   {project.link}
                 </a>
               </p>
+              {project.admin && <hr />}
+              <p className="grid grid-cols-4 ">
+                <span className="col-span-2 sm:col-span-1">
+                  {project.admin && "Admin Panel:"}
+                </span>
+                <span className="col-span-2 sm:col-span-3 text-gray-500">
+                  {project.admin}
+                </span>
+              </p>
+              <hr />
               <p className="grid grid-cols-4 text-red-600">
                 <span className="col-span-2 sm:col-span-1">
                   {project.note && "Note"}

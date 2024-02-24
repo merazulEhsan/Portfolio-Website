@@ -56,7 +56,8 @@
       "type": "Website",
       "technology": "HTML5, CSS3, Tailwind CSS, Daisy UI, React, Stripe-js, Firebase, MongoDB, Express.js, Node.js",
       "gitlink": "https://github.com/merazul2755/CashLess-Restaurant",
-      "note": "Please wait 50s for loading data"
+      "note": "Please wait 50s for loading data",
+      "admin": "email: admin@gmail.com, password: 123456"
     },
     {
       "id": 2,
@@ -67,7 +68,8 @@
       "type": "Website",
       "technology": "HTML5, CSS3, Tailwind CSS, Daisy UI, React, Firebase, MongoDB, Express.js, Node.js",
       "gitlink": "https://github.com/merazul2755/ToolSite-Client-Side",
-      "note": "Please wait 50s for loading data"
+      "note": "Please wait 50s for loading data",
+      "admin": "email: admin@gmail.com, password: 123456"
     },
     {
       "id": 3,
@@ -78,7 +80,8 @@
       "type": "Transport-Website",
       "technology": "HTML5, CSS3, Tailwind CSS, Daisy UI, React, Firebase, MongoDB, Express.js, Node.js",
       "gitlink": "https://github.com/merazul2755/Transport-Management",
-      "note": "Please wait 50s for loading data"
+      "note": "Please wait 50s for loading data",
+      "admin": "email: admin@gmail.com, password: 123456"
     },
     {
       "id": 4,
