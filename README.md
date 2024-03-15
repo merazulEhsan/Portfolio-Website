@@ -1,3 +1,3 @@
 # Sowad's Portfolio
 
-Site Live Link: [https://sowad-portfolio.vercel.app/](https://sowad-portfolio.vercel.app/)
+Site Live Link: [https://sowadportfolio.vercel.app/](https://sowadportfolio.vercel.app/)
