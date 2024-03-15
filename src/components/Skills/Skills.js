@@ -31,9 +31,9 @@ const Skills = () => {
             {data?.skills?.map((skill, i) => (
               <div
                 key={i}
-                className="text-center flex flex-col items-center justify-center"
+                className="text-center flex flex-col items-center justify-center "
               >
-                <div className="border border-slate-600 p-4 w-16 h-16 rounded-full bg-[#1d3347] mb-1">
+                <div className="border border-slate-600 p-4 w-16 h-16 rounded-full bg-[#1d3347]  mb-1">
                   <img src={skill.image} alt={skill.name} />
                 </div>
                 <span className="font-grotesk font-normal text-sm tracking-wide">

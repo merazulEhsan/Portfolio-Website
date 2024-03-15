@@ -85,12 +85,12 @@ const NavMenu = () => {
               </li>
             </ul>
           </div>
-          <a
-            href="#home"
-            className="text-xl md:text-2xl font-bold font-grotesk tracking-wider"
+          <span
+            onClick={() => home.scrollIntoView({ behavior: "smooth" })}
+            className="text-xl md:text-2xl font-bold font-grotesk tracking-wider cursor-pointer"
           >
             <span className="bg-blue-600 py-.1 px-1 rounded">S</span>OWAD.
-          </a>
+          </span>
         </div>
 
         <div className="navbar-center hidden lg:flex">
