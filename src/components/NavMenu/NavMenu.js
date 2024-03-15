@@ -15,8 +15,14 @@ const NavMenu = () => {
       setNav(false);
     }
   };
-
   window.addEventListener("scroll", changeBg);
+
+  const home = document.getElementById("home");
+  const about = document.getElementById("about");
+  const project = document.getElementById("project");
+  const skills = document.getElementById("skills");
+  const education = document.getElementById("education");
+  const contact = document.getElementById("contact");
 
   // "navbar w-full fixed shadow-lg z-50 border-b-2 border-teal-400 bg-base-100 text-white"
 
@@ -24,7 +30,7 @@ const NavMenu = () => {
     <div
       className={
         nav
-          ? "navbar w-full fixed z-20  bg-[#040c16] text-white transition-all duration-1000 ease-in-out"
+          ? "navbar w-full fixed z-20  bg-[#040c16] text-white transition-all duration-1000 ease-in-out drop-shadow-xl"
           : "navbar w-full fixed z-20 bg-transparent text-white"
       }
     >
@@ -49,25 +55,33 @@ const NavMenu = () => {
             </label>
             <ul
               tabIndex="0"
-              className="menu menu-sm text-center dropdown-content mt-2 p-4 shadow bg-black w-screen border-t border-gray-500 -ml-2 md:-ml-8"
+              className="menu menu-sm text-center dropdown-content mt-2 p-4 shadow-2xl bg-[#040c16] w-screen border-t border-gray-500 -ml-2 md:-ml-8 space-y-5"
             >
-              <li>
-                <a href="#home">Home</a>
+              <li onClick={() => home.scrollIntoView({ behavior: "smooth" })}>
+                Home
               </li>
-              <li>
-                <a href="#about">About</a>
+
+              <li onClick={() => about.scrollIntoView({ behavior: "smooth" })}>
+                About
               </li>
-              <li>
-                <a href="#project">Projects</a>
+
+              <li
+                onClick={() => project.scrollIntoView({ behavior: "smooth" })}
+              >
+                Projects
               </li>
-              <li>
-                <a href="#skills">Skills</a>
+              <li onClick={() => skills.scrollIntoView({ behavior: "smooth" })}>
+                Skills
               </li>
-              <li>
-                <a href="#education">Education</a>
+              <li
+                onClick={() => education.scrollIntoView({ behavior: "smooth" })}
+              >
+                Education
               </li>
-              <li>
-                <a href="#contact">Contact</a>
+              <li
+                onClick={() => contact.scrollIntoView({ behavior: "smooth" })}
+              >
+                Contact
               </li>
             </ul>
           </div>
@@ -81,66 +95,72 @@ const NavMenu = () => {
 
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal tracking-wider p-0 font-grotesk uppercase text-sm scroll-smooth">
-            <li>
-              <a
-                href="#home"
-                onClick={() => setTitle("")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
-              >
+            <li
+              onClick={() => {
+                setTitle("");
+                home.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              <span className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2">
                 Home
-              </a>
+              </span>
             </li>
-            <li>
-              <a
-                href="#about"
-                onClick={() => setTitle("| About")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
-              >
+            <li
+              onClick={() => {
+                setTitle("| About");
+                about.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              <span className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2">
                 About
-              </a>
+              </span>
             </li>
-            <li>
-              <a
-                href="#project"
-                onClick={() => setTitle("| Projects")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
-              >
+            <li
+              onClick={() => {
+                setTitle("| Projects");
+                project.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              <span className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2">
                 Projects
-              </a>
+              </span>
             </li>
 
-            <li>
-              <a
-                href="#skills"
-                onClick={() => setTitle("| Skills")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
-              >
+            <li
+              onClick={() => {
+                setTitle("| Skills");
+                skills.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              <span className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2">
                 Skills
-              </a>
+              </span>
             </li>
-            <li>
-              <a
-                href="#education"
-                onClick={() => setTitle("| Education")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
-              >
+            <li
+              onClick={() => {
+                setTitle("| Education");
+                education.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              <span className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2">
                 Education
-              </a>
+              </span>
             </li>
-            <li>
-              <a
-                href="#contact"
-                onClick={() => setTitle("| Contact")}
-                className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2"
-              >
+            <li
+              onClick={() => {
+                setTitle("| Contact");
+                contact.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              <span className="relative after:transition-all after:ease-linear after:duration-500 after:bg-white after:content-[''] after:w-0 hover:after:w-full focus:after:w-full after:h-[1.5px] after:rounded-full after:absolute after:left-0 after:bottom-2">
                 Contact
-              </a>
+              </span>
             </li>
           </ul>
         </div>
         <div className="navbar-end  lg:pr-5 flex justify-end items-center">
           <a
-            href="https://github.com/merazul2755"
+            href="https://github.com/merazulEhsan"
             target="_blank"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white pr-3 transition ease-linear duration-500"
             rel="noreferrer"
@@ -159,7 +179,7 @@ const NavMenu = () => {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/feed/"
+            href="https://www.linkedin.com/in/merazul-ehsan-sowad-922a201a6/"
             target="_blank"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white pr-3 transition ease-linear duration-500"
             rel="noreferrer"

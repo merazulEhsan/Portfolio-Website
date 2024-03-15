@@ -9,6 +9,10 @@
       "image": "assets/css.png"
     },
     {
+      "name": "TailwindCss",
+      "image": "assets/tailwind.png"
+    },
+    {
       "name": "JavaScript",
       "image": "assets/javascript.png"
     },
@@ -21,13 +25,14 @@
       "image": "assets/redux.png"
     },
     {
+      "name": "NextJS",
+      "image": "assets/next.svg"
+    },
+    {
       "name": "NodeJs",
       "image": "assets/nodejs.png"
     },
-    {
-      "name": "TailwindCss",
-      "image": "assets/tailwind.png"
-    },
+
     {
       "name": "Git",
       "image": "assets/git.png"
@@ -41,8 +46,20 @@
       "image": "assets/mongodb.png"
     },
     {
-      "name": "TypeScript",
-      "image": "assets/typescript.png"
+      "name": "Firebase",
+      "image": "assets/firebase.svg"
+    },
+    {
+      "name": "VS Code",
+      "image": "assets/vs.svg"
+    },
+    {
+      "name": "ExpressJS",
+      "image": "assets/express.svg"
+    },
+    {
+      "name": "ViteJS",
+      "image": "assets/vite.svg"
     }
   ],
 

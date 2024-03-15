@@ -92,9 +92,10 @@ const Home = () => {
             </div>
             <div className="text-lg font-grotesk leading-relaxed text-gray-200 tracking-wider">
               <p>
-                Yet bed any for travelling assistance indulgence unpleasing. Not
-                thoughts all exercise blessing. Indulgence way everything joy
-                alteration boisterous the attachment.
+                Proficient in Frontend Development using React JS, Tailwind CSS,
+                JavaScript and Next JS. I love to work on web application using
+                technologies like HTML, CSS, React, Tailwind, JavaScript, Next
+                JS and so on.
               </p>
             </div>
 
@@ -110,7 +111,7 @@ const Home = () => {
 
               <div className="pl-6 flex items-center gap-2">
                 <a
-                  href="https://github.com/merazul2755"
+                  href="https://github.com/merazulEhsan"
                   target="_blank"
                   className="hover:text-gray-900 dark:hover:text-white bg-white hover:bg-black rounded-full h-9 w-9 flex justify-center items-center shadow-2xl  group transition ease-linear duration-300"
                   rel="noreferrer"
@@ -129,7 +130,7 @@ const Home = () => {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/feed/"
+                  href="https://www.linkedin.com/in/merazul-ehsan-sowad-922a201a6/"
                   target="_blank"
                   className=" hover:text-gray-900 dark:hover:text-white bg-white hover:bg-[#1275b1] rounded-full h-9 w-9 flex justify-center items-center shadow-2xl  group transition ease-linear duration-300"
                   rel="noreferrer"

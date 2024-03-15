@@ -10,7 +10,7 @@ export default function CarouselLogo() {
       autoplay: 1,
       animationDuration: 10000,
       animationTimingFunc: "linear",
-      perView: 4,
+      perView: 5,
       classes: {
         nav: {
           active: "[&>*]:bg-wuiSlate-700",

@@ -19,9 +19,8 @@ const Skills = () => {
               <h1 className="text-[#0788ff]">Skills & Experience</h1>
             </div>
             <p className="text-base text-white mt-3 tracking-wider font-normal">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
-              quasi consequatur assumenda? Ad eius eaque mollitia velit?
-              Inventore, numquam ratione!
+              These are the technologies I've worked with and used them in my
+              projects.
             </p>
 
             <div className="mt-14 animate-shakeX animate-slower animate-ease animate-infinite hidden md:block">
