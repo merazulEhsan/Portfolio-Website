@@ -92,7 +92,7 @@
       "id": 3,
       "name": "Transport Management System",
       "despription": "By this site students can easily book/cancel their seats. Admin can add routes, manage users, add admin etc.",
-      "link": "https://transport-manegement-web.vercel.app/",
+      "link": "https://transport-manegement-web.vercel.app/booking",
       "image": "assets/images/transport.png",
       "type": "Transport-Website",
       "technology": "HTML5, CSS3, Tailwind CSS, Daisy UI, React, Firebase, MongoDB, Express.js, Node.js",

@@ -28,23 +28,22 @@ const About = () => {
             />
             <div className="pt-5 lg:mt-0">
               <span className="font-grotesk px-2 py-1 rounded tracking-[4px] text-white bg-[#05345e] text-sm uppercase ">
-                About ME
+                A few words about myself
               </span>
               <h1 className="text-2xl md:text-3xl font-bold uppercase mt-5">
                 I am <span className="text-[#0788ff]">Merazul Ehsan Sowad</span>
               </h1>
               <p className="py-6 text-justify tracking-wider font-normal">
-                I'm a
+                I am self-taught passionate Web Developer specialized in{" "}
                 <strong className="text-[#08fdd8]">
-                  {" "}
-                  MERN Stack Developer{" "}
+                  MERN Stack Web Development
                 </strong>
-                located in Bangladesh. I am specialized in javascript stack i.e.
-                Node.js, React.js, Express.js. Also fimiliar with UI/UX design,
-                MongoDB, Firebase, Next.js, TypeScript, Redux etc. I'm
-                Self-Confident & positive, Willing to gain new experience and
-                new challenges, Ability to work independently and in concert
-                with other.
+                . As a MERN Stack Web Developer i can convert a Figma design to
+                a pixel perfect responsive web application & give them life
+                using ReactJS. I can develop REST APIs using Node.js, Express.js
+                & MongoDB. Also connect them with front-end single page
+                applications. I am very comfortable with Next.js framework and
+                have sound knowledge in both clint & server side rendering.
               </p>
               <button
                 onClick={() =>
