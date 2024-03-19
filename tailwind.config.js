@@ -11,6 +11,7 @@ module.exports = withAnimations({
       fontFamily: {
         cinzel: ["Cinzel Decorative", "cursive"],
         grotesk: ["Space Grotesk", "sans-serif"],
+        agustina: ["Agustina Regular", "sans-serif"],
       },
       animation: {
         "spin-slow": "spin 40s linear infinite",

@@ -63,8 +63,8 @@ const About = () => {
           </span>
 
           <div className="mt-10 grid justify-between grid-flow-col">
-            <div className="group">
-              <div className="border-2 border-[#0788ff] w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center mb-2 fill-[#0788ff] hover:bg-[#0788ff] hover:fill-current transition ease-linear duration-500">
+            <div className="group ">
+              <div className="border-2 border-[#0788ff] w-12 h-12 md:w-16 md:h-16 rounded-full flex justify-center items-center mb-2 fill-[#0788ff] hover:bg-[#0788ff] hover:fill-current transition ease-linear ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="32"

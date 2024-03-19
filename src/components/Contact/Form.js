@@ -36,7 +36,7 @@ export default function Form() {
     >
       <div className="">
         <input
-          className="w-full bg-black p-3 rounded-md focus:outline-none focus:shadow-outline "
+          className="w-full bg-[#072d4f] p-3 rounded-md focus:outline-none focus:shadow-outline "
           type="text"
           placeholder="Name"
           name="user_name"
@@ -45,7 +45,7 @@ export default function Form() {
       </div>
       <div className="">
         <input
-          className="w-full bg-black p-3 rounded-md focus:outline-none focus:shadow-outline"
+          className="w-full bg-[#072d4f] p-3 rounded-md focus:outline-none focus:shadow-outline"
           type="text"
           name="user_email"
           placeholder="Email"
@@ -54,7 +54,7 @@ export default function Form() {
       </div>
       <div className="col-span-2">
         <input
-          className="w-full bg-black p-3 rounded-md focus:outline-none focus:shadow-outline"
+          className="w-full bg-[#072d4f] p-3 rounded-md focus:outline-none focus:shadow-outline"
           type="text"
           name="user_subject"
           placeholder="Subject"
@@ -67,7 +67,7 @@ export default function Form() {
           required
           rows="4"
           placeholder="Message"
-          className="w-full bg-black p-3 rounded-md focus:outline-none focus:shadow-outline"
+          className="w-full bg-[#072d4f] p-3 rounded-md focus:outline-none focus:shadow-outline"
         ></textarea>
       </div>
       <div className="col-span-2 lg:col-span-1">

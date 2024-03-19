@@ -5,7 +5,7 @@ const NavMenu = () => {
   const [title, setTitle] = useState("");
 
   useEffect(() => {
-    document.title = `Sowad-Portfolio ${title}`;
+    document.title = `Sowad's Portfolio ${title}`;
   }, [title]);
 
   const changeBg = () => {
@@ -24,8 +24,6 @@ const NavMenu = () => {
   const education = document.getElementById("education");
   const contact = document.getElementById("contact");
 
-  // "navbar w-full fixed shadow-lg z-50 border-b-2 border-teal-400 bg-base-100 text-white"
-
   return (
     <div
       className={
@@ -35,7 +33,7 @@ const NavMenu = () => {
       }
     >
       <div className="container mx-auto xl:px-32 md:px-6  items-center max-w-[1536px]">
-        <div className="navbar-start ">
+        <div className="navbar-start flex items-center">
           <div className="dropdown ">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
               <svg
@@ -85,12 +83,14 @@ const NavMenu = () => {
               </li>
             </ul>
           </div>
-          <span
+          <div
             onClick={() => home.scrollIntoView({ behavior: "smooth" })}
-            className="text-xl md:text-2xl font-bold font-grotesk tracking-wider cursor-pointer"
+            className="text-xl md:text-2xl font-agustina font-extralight cursor-pointer mt-3 flex items-center"
           >
-            <span className="bg-blue-600 py-.1 px-1 rounded">S</span>OWAD.
-          </span>
+            <span>MerazulEhsan.</span>
+
+            {/* <span className="bg-blue-600 py-.1 px-1 rounded">S</span>OWAD. */}
+          </div>
         </div>
 
         <div className="navbar-center hidden lg:flex">
